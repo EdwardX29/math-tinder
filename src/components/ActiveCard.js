@@ -25,7 +25,7 @@ const ActiveCard = (props) => {
                     </div>
                 </div>
                 <div className="location">
-                    <img id="location-icon" src="/location.svg" alt="location icon"/>
+                    <img id="location-icon" src="location.svg" alt="location icon"/>
                     <span>{props.distance} km away</span>
                 </div>
                 <div className="demographics">
