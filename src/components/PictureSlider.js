@@ -16,15 +16,15 @@ const PictureSlider = (props) => {
         }
     }
 
-    // useEffect( () => {
-    //      props.images.forEach( (image) => {
-    //         console.log(image);
-    //         const img = new Image();
-    //         img.src = "../assets/" + image;
-    //         console.log(img)
-    //     })
-    //     document.title = "hayley";
-    // })
+    useEffect( () => {
+         props.images.forEach( (image) => {
+            // console.log(image);
+            const img = new Image();
+            img.src = image;
+            // console.log(img)
+        })
+        document.title = "hayley";
+    })
     
     // let  poo = [];
 

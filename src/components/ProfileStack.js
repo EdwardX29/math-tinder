@@ -48,7 +48,7 @@ const profiles = [
         "id" : 4
     },
     {
-        "images" : ["preston1.jpg", "preston2.jpg", "preston3.jpg", "preston4.jpg"],
+        "images" : ["preston1.jpg", "preston2.jpg", "preston3.jpg", "preston4.jpg", "preston5.jpg"],
         "name" : "Preston",
         "age" : "18",
         "distance" : 4.5, 
@@ -59,7 +59,7 @@ const profiles = [
         "id": 5
     },
   {
-    "images" : ["spencer1.jpg"],
+    "images" : ["spencer1.jpg", "spencer2.jpg"],
     "name" : "Spencer",
     "age" : "19",
     "distance" : 0.1,
