@@ -58,6 +58,16 @@ const profiles = [
         "description" : "Bonjour. Je vais te baiser sur la table.",
         "id": 5
     },
+  {
+    "images" : ["spencer1.jpg"],
+    "name" : "Spencer",
+    "age" : "19",
+    "distance" : 0.1,
+    "gender" : "Male",
+    "sClass" : "Epsilon-minus Semi-moron Ε",
+    "quote" : "Lets kill mathematician who made lambda",
+    "description" : "One piece, yeah I'll give you one piece of advice; Ben, yes, no, ugh. Hohoho."
+  }
 ]
 
 
