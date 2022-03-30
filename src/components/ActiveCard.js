@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import PictureSlider from './PictureSlider';
 import './ActiveCard.css'
-
+// import  {ReactComponent as Logo} from '../assets/location.svg';
 const ActiveCard = (props) => {
 
     const  [clicked, setClicked] = useState(false); 
@@ -25,7 +25,8 @@ const ActiveCard = (props) => {
                     </div>
                 </div>
                 <div className="location">
-                    <img id="location-icon" src="location.svg" alt="location icon"/>
+                    <img id="location-icon" src={`${process.env.PUBLIC_URL}/location.svg` } alt="location icon"/>
+                    {/* <Logo /> */}
                     <span>{props.distance} km away</span>
                 </div>
                 <div className="demographics">
@@ -42,8 +43,8 @@ const ActiveCard = (props) => {
                 </div>
             </div>
                 <div className="rating-container">
-                    <img className="rate" id="decline" src="x.svg" alt="decline icon" onClick={() => setClicked(true)}/>
-                    <img className="rate" id="heart" src="heart2.svg" alt="heart icon" onClick={() => setClicked(true)}/>
+                    <img className="rate" id="decline" src={`${process.env.PUBLIC_URL}/x.svg` } alt="decline icon" onClick={() => setClicked(true)}/>
+                    <img className="rate" id="heart" src={`${process.env.PUBLIC_URL}/heart2.svg` } alt="heart icon" onClick={() => setClicked(true)}/>
                 </div>
             </div>
         </div>
