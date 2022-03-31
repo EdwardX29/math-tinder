@@ -4,70 +4,65 @@ import './ProfileStack.css'
 
 const profiles = [
     {
-        "images" : ["bernard.webp"],
+        "images" : ["bernard.webp","bernard1.png", "bernard2.png"],
         "name" : "Bernard Marx",
-        "age" : "23?",
+        "age" : "20",
         "distance" : 21, 
         "gender" : "Male",
-        "sClass" : "Alpha-plus Α",
+        "sClass" : "Alpha Plus Α",
         "quote" : "I am a simp",
-        "description" : "Hi I'm Bernard, who tf are you?",
+        "description" : "I used to be lonely, insecure, and isolated, but I’m now I’m popular. Not like the other Alphas. Supports anti-social ideologies and rebellion against the World State. If you swipe right, I’ll let you meet the savage.",
         "id": 1
     },
     {
-        "images" : ["lenina.webp"],
+        "images" : ["lenina.webp", "lenina2.png", "lenina3.png"],
         "name" : "Lenina Crowne",
         "age" : 19,
         "distance" : 90,   
         "gender" : "Female",
-        "sClass" : "Beta Β", 
-        "quote" : "Ending is better than mending",
-        "description" : "Lorem ipsum dolor sit amet ",
+        "sClass" : "Beta Plus Β", 
+        "quote" : "A Gramme is Better Than a Damn",
+        "description" : "Looking for someone to go on soma     holiday with ;). Enjoys working in the conditioning hatchery, cute outfits, and Malthusian belts with contraceptives. Hates the savage reservation (except if your John). I am very pneumatic!!",
         "id" : 2,
     },
-    {
-        "images" : ["sam1.jpg", "sam2.jpg", "sam3.jpg", "sam4.jpg"],
-        "name" : "Samuel H. Tran",
-        "age" : "18",
-        "distance" : 3, 
-        "gender" : "Male",
-        "sClass" : "Epsilon-minus Semi-moron Ε",
-        "quote" : "Hi how are you?",
-        "description" : "Hi I'm Sam, who tf are you?",
-        "id" : 3
-    },
-    {
-        "images" : ["jerry1.jpg", "jerry2.jpg", "jerry3.jpg"],
-        "name" : "Jerry Wang",
-        "age" : "18",
-        "distance" : 4, 
-        "gender" : "Male",
-        "sClass" : "Epsilon-minus Semi-moron Ε",
-        "quote" : "Jerry...il est assez retardé",
-        "description" : "Bonjour. Tu es très grande.",
-        "id" : 4
-    },
-    {
-        "images" : ["preston1.jpg", "preston2.jpg", "preston3.jpg", "preston4.jpg"],
-        "name" : "Preston",
-        "age" : "18",
-        "distance" : 4.5, 
-        "gender" : "Male",
-        "sClass" : "Epsilon-minus Semi-moron Ε",
-        "quote" : "Toi! Qu'est-ce que tu fais?!",
-        "description" : "Bonjour. Je vais te baiser sur la table.",
-        "id": 5
-    },
   {
-    "images" : ["spencer1.jpg"],
-    "name" : "Spencer",
-    "age" : "19",
-    "distance" : 0.1,
-    "gender" : "Male",
-    "sClass" : "Epsilon-minus Semi-moron Ε",
-    "quote" : "Lets kill mathematician who made lambda",
-    "description" : "One piece, yeah I'll give you one piece of advice; Ben, yes, no, ugh. Hohoho."
+    "images" : ["foster1.png", "foster2.png", "foster3.png"],
+        "name" : "Henry Foster",
+        "age" : 23,
+        "distance" : 30,   
+        "gender" : "Male",
+        "sClass" : "Alpha Plus Α", 
+        "quote" : "Everyone Works for Everyone Else",
+        "description" : "Perfectly fit, happy, and conditioned. Your typical upper-caste citizen.  A functional member of the World State. Works in the Hatchery. Loves pneumatic women and doing soma.",
+        "id" : 3,
+    
+  },
+
+  {
+     "images" : ["mm1.png", "mm2.png", "mm3.png"],
+        "name" : "Mustapha Mond",
+        "age" : 40,
+        "distance" : 70,   
+        "gender" : "Male",
+        "sClass" : "Alpha Plus Plus Α", 
+        "quote" : "One believes things because one has been conditioned to believe them",
+        "description" : "The most powerful and influential man in the World State. Enjoys intellectual and philosophical conversations. Knows Shakespeare, the bible, and all of history. Trying to achieve stability and happiness for all humankind.",
+        "id" : 4, 
+  },
+  {
+    "images" : ["john1.png", "john2.png", "john3.png"],
+        "name" : "John (the Savage)",
+        "age" : 18,
+        "distance" : 200,   
+        "gender" : "Male",
+        "sClass" : "Savage", 
+        "quote" : "Don’t you even know what manhood and freedom are?",
+        "description" : "White son of Director of Hatcheries and Conditioning and Linda. Grew up in the Savage Reservation. Hates hedonism; renounced all worldly pleasures. Loves reading Shakespeare in my free time.",
+        "id" : 5, 
+    
   }
+  
+  
 ]
 
 
