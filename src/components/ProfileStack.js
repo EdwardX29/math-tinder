@@ -73,7 +73,7 @@ const ProfileStack = () => {
     profiles.forEach(profile => 
         list.push(<ActiveCard {...profile} />)       
         )
-
+        
     
     return (
         <div>

@@ -18,6 +18,8 @@ const PictureSlider = (props) => {
     }
 
 
+    
+
     return (
 
         <div 
