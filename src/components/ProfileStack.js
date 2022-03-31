@@ -10,7 +10,7 @@ const profiles = [
         "distance" : 21, 
         "gender" : "Male",
         "sClass" : "Alpha Plus Α",
-        "quote" : "I am a simp",
+        "quote" : "I did not have alcohol in my blood surrogate",
         "description" : "I used to be lonely, insecure, and isolated, but I’m now I’m popular. Not like the other Alphas. Supports anti-social ideologies and rebellion against the World State. If you swipe right, I’ll let you meet the savage.",
         "id": 1
     },
