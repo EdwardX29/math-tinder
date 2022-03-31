@@ -38,12 +38,12 @@ const ActiveCard = (props) => {
                 <div className="quote">
                     <q>{props.quote}</q>
                 </div>
-                <div>
+                <div className="description-text">
                     {props.description}
                 </div>
             </div>
                 <div className="rating-container">
-                    <img className="rate" id="decline" src={`${process.env.PUBLIC_URL}/x.svg` } alt="decline icon" onClick={() => setClicked(true)}/>
+                    <img className="rate"  id="decline" src={`${process.env.PUBLIC_URL}/x.svg` } alt="decline icon" onClick={() => setClicked(true)}/>
                     <img className="rate" id="heart" src={`${process.env.PUBLIC_URL}/heart2.svg` } alt="heart icon" onClick={() => setClicked(true)}/>
                 </div>
             </div>
