@@ -23,7 +23,7 @@ const PictureSlider = (props) => {
             img.src = image;
             // console.log(img)
         })
-        document.title = "hayley";
+        // document.title = "hayley";
     })
     
     // let  poo = [];
