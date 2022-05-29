@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/math-tindercards/static/css/main.34678177.css",
-    "main.js": "/math-tindercards/static/js/main.cb98a8ef.js",
-    "static/js/787.9b47aebd.chunk.js": "/math-tindercards/static/js/787.9b47aebd.chunk.js",
-    "index.html": "/math-tindercards/index.html",
-    "main.34678177.css.map": "/math-tindercards/static/css/main.34678177.css.map",
-    "main.cb98a8ef.js.map": "/math-tindercards/static/js/main.cb98a8ef.js.map",
-    "787.9b47aebd.chunk.js.map": "/math-tindercards/static/js/787.9b47aebd.chunk.js.map"
+    "main.css": "/math-tinder/static/css/main.34678177.css",
+    "main.js": "/math-tinder/static/js/main.164a7b6d.js",
+    "static/js/787.9b47aebd.chunk.js": "/math-tinder/static/js/787.9b47aebd.chunk.js",
+    "index.html": "/math-tinder/index.html",
+    "main.34678177.css.map": "/math-tinder/static/css/main.34678177.css.map",
+    "main.164a7b6d.js.map": "/math-tinder/static/js/main.164a7b6d.js.map",
+    "787.9b47aebd.chunk.js.map": "/math-tinder/static/js/787.9b47aebd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34678177.css",
-    "static/js/main.cb98a8ef.js"
+    "static/js/main.164a7b6d.js"
   ]
 }
