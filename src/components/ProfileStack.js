@@ -2,67 +2,59 @@ import React from 'react';
 import ActiveCard from './ActiveCard';
 import './ProfileStack.css'
 
-const profiles = [   
-  {
-    "images" : ["foster1.png", "foster2.png", "foster3.png"],
-        "name" : "Henry Foster",
-        "age" : 23,
-        "distance" : 30,   
-        "gender" : "Male",
-        "sClass" : "Alpha Plus Α", 
-        "quote" : "Everyone Works for Everyone Else",
-        "description" : "Perfectly fit, happy, and conditioned. Your typical upper-caste citizen.  A functional member of the World State. Works in the Hatchery. Loves pneumatic women and doing soma.",
-        "id" : 3,
-    
-  },
-  {
-    "images" : ["john1.png", "john2.png", "john3.png"],
-        "name" : "John (Savage)",
-        "age" : 18,
-        "distance" : 200,   
-        "gender" : "Male",
-        "sClass" : "Savage", 
-        "quote" : "Don’t you even know what manhood and freedom are?",
-        "description" : "White son of Director of Hatcheries and Conditioning and Linda. Grew up in the Savage Reservation. Hates hedonism; renounced all worldly pleasures. Loves reading Shakespeare in my free time.",
-        "id" : 5, 
-    
-  },
-  {
-        "images" : ["lenina.webp", "lenina2.png", "lenina3.png"],
-        "name" : "Lenina Crowne",
-        "age" : 19,
-        "distance" : 90,   
-        "gender" : "Female",
-        "sClass" : "Beta Plus Β", 
-        "quote" : "A Gramme is Better Than a Damn",
-        "description" : "Looking for someone to go on soma     holiday with ;). Enjoys working in the conditioning hatchery, cute outfits, and Malthusian belts with contraceptives. Hates the savage reservation (except if your John). I am very pneumatic!!",
-        "id" : 2,
-    },
-  {
-        "images" : ["bernard.webp","bernard3.png", "bernard2.png"],
-        "name" : "Bernard Marx",
-        "age" : "20",
+console.log("hello world");
+
+
+const profiles = [
+    {
+        "images" : ["bayes.jpg", "bayes-dead.jpg"],
+        "name" : "Thomas Bayes",
+        "age" : "30",
         "distance" : 21, 
         "gender" : "Male",
-        "sClass" : "Alpha Plus Α",
-        "quote" : "I did not have alcohol in my blood surrogate",
-        "description" : "I used to be lonely, insecure, and isolated, but I’m now I’m popular. Not like the other Alphas. Supports anti-social ideologies and rebellion against the World State. If you swipe right, I’ll let you meet the savage.",
+        "sClass" : "Englishman",
+        "quote" : "I am a mathematician and a priest",
+        "description" : "I studied logic and theology at University of Edinburgh but had the opportunity to study mathematics at some point too. The evolution work has applications in modern machine learning particularly in ecommerce, search algorithms, and advertisements.",
         "id": 1
     },
   {
-     "images" : ["mm1.png", "mm2.png", "mm3.png"],
-        "name" : "Mustapha Mond",
-        "age" : 40,
-        "distance" : 70,   
+        "images" : ["sri1.png"],
+        "name" : "Srinivasa Ramanujan",
+        "age" : "32",
+        "distance" : 20, 
         "gender" : "Male",
-        "sClass" : "Alpha Plus Plus Α", 
-        "quote" : "One believes things because one has been conditioned to believe them",
-        "description" : "The most powerful and influential man in the World State. Enjoys intellectual and philosophical conversations. Knows Shakespeare, the bible, and all of history. Trying to achieve stability and happiness for all humankind.",
-        "id" : 4, 
-  },
+        "sClass" : "Indian",
+        "quote" : "Indian mathematician born in 1887 in British Ruled India.",
+        "description" : "I am a devout Hindu. I was a prodigy with no formal training in mathematics. I made major contributions in number theory, infinite series, and continued fractions. I also love game theory, computer science, economics, and social science",
+        "id": 3
+    },
+    {
+        "images" : ["euclid1.png" , "euclid2.jpg", "euclid3.jpeg", "euclid4.jpeg"],
+        "name" : "Euclid",
+        "age" : "60",
+        "distance" : 34, 
+        "gender" : "Male",
+        "sClass" : "Greek",
+        "quote" : "A Greek mathematician during 300 BC in Alexandria Egypt",
+        "description" : "I am known for my treatsies on geometry and built a logical and rigorous foundation of geometry through definitions. I wrote 'Elements' which is composed of 13 books. Book I proves various theorems on parallelograms and triangles, ending with a proof of the Pythorean theorem Book II is about geometric algebra Book III is about circles Book IV is about regular polygons",
+        "id": 2
+    },
+  
   
   
 ]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 const ProfileStack = () => {
@@ -72,8 +64,6 @@ const ProfileStack = () => {
     profiles.forEach(profile => 
         list.push(<ActiveCard {...profile} />)       
         )
-        
-    
     return (
         <div>
             {list}
